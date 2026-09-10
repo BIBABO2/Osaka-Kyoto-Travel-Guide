@@ -127,9 +127,9 @@
 | 優先席 | 优先座 | 老人、孕妇、带小孩者优先，让座很正常〔S6〕 |
 | 荷物置き場 | 行李放置区 | 新干线部分车厢设有 |
 
-![优先座标识实拍](assets/transit/photo-priority-seat.jpg)
+![优先座标识实拍（东京圈车厢示例，关西车厢标识样式相同）](assets/transit/photo-priority-seat.jpg)
 
-![女性专用车标识实拍](assets/transit/photo-women-only.jpg)
+![女性专用车标识实拍（标识样式示例；关西以站台当日标注的车厢位置为准）](assets/transit/photo-women-only.jpg)
 
 ---
 
@@ -152,7 +152,7 @@
 
 实拍：自动闸机与 IC 感应区（把卡放在凸起的感应板上即可）。
 
-![自动闸机实拍](assets/transit/photo-ticket-gate.jpg)
+![自动闸机实拍（东京圈 PASMO 闸机示例，关西设备外观相近）](assets/transit/photo-ticket-gate.jpg)
 
 ![京都站的 ICOCA 闸机实拍](assets/transit/photo-icoca-gate.jpg)
 
@@ -208,7 +208,7 @@
 3. 出闸：再次插入，票被机器回收（不再吐出）。
 4. 坐过站：用精算机补差价，拿新票出站。
 
-![自动售票机实拍](assets/transit/photo-ticket-machine.jpg)
+![自动售票机实拍（JR 东日本长冈站示例，关西机型相近）](assets/transit/photo-ticket-machine.jpg)
 
 ### 4.3 路径三：手机 IC（Apple Pay / モバイルICOCA）
 

@@ -4,6 +4,33 @@
 
 本目录全部图片来自 Wikimedia Commons：标识（logo）为公有领域或自由许可，实拍照片为 CC 许可。标识与商标版权归各铁路/巴士公司所有，此处仅用于乘车识读说明；每张图片的原页面链接可直接点开核对。
 
+## 内容核对说明（2026-09-11 复核）
+
+下面的「Commons 原始描述」是抓取时从 Commons 页面读取的官方描述，用来核对图片内容与文档用途是否一致：
+
+| 本地文件 | Commons 原始描述（节选） | 文档中的用途 |
+|---|---|---|
+| photo-icoca-gate.jpg | ICOCA-Gate at Kyoto Station | 京都站的 ICOCA 闸机 |
+| photo-icoca-card.jpg | Kips ICOCA の裏面（ICOCA 卡背面） | ICOCA 卡实物 |
+| photo-charge-machine.jpg | ICOCA の簡易チャージ機（大阪駅 1・2 番線） | IC 卡充值机 |
+| photo-fare-adjustment.jpg | のりこし精算機（JR 大阪駅・連絡橋口） | 精算机（补票机） |
+| photo-suica-tap.jpg | Suica 使用 | 刷 Suica 过闸 |
+| photo-welcome-suica.jpg | Welcome Suica card is for tourists visiting Japan | 短期游客版 Suica |
+| photo-ticket-gate.jpg | （PASMO 自动闸机实拍） | 自动闸机示例（东京圈设备） |
+| photo-osaka-metro-gate.jpg | 大阪市高速電気軌道森ノ宮駅の顔認証対応自動改札機 | Osaka Metro 闸机（关西） |
+| photo-ticket-machine.jpg | Automatic ticket vending machine at JR East Nagaoka Station | 自动售票机（JR 东日本长冈站示例） |
+| photo-shinkansen-n700s.jpg | N700S series J2（JR 東海・東海道新幹線） | 新干线列车 |
+| photo-haruka.jpg | Haruka at Kyoto Station | HARUKA 特急（京都站） |
+| photo-rapit.jpg | 南海 50000 系 Rapit（难波站） | 南海 Rapit 特急 |
+| photo-kyoto-bus.jpg | Kyoto city bus Isuzu Erga Nonstep bus | 京都市巴士 |
+| photo-osaka-bus.jpg | Osaka City Bus 2021-10 | 大阪 City Bus |
+| photo-kyoto-pass.jpg | 京都市營巴士-京都巴士一日遊通票 | 京都一日券实物 |
+| photo-priority-seat.jpg | Priority Seat 标识（京王线车厢，东京圈） | 优先座标识示例 |
+| photo-women-only.jpg | Women Only 标识（JR 东日本中央线车厢） | 女性专用车标识示例 |
+| photo-kyoto-platform.jpg | JR Kyoto Station Platform Doors (4th Home) 2026-05 | 京都站月台与站台门 |
+
+> 说明：标注「东京圈示例」的照片用于说明标识样式；关西本地场景以 photo-icoca-gate、photo-osaka-metro-gate、photo-charge-machine、photo-fare-adjustment、photo-haruka、photo-rapit、photo-kyoto-bus、photo-osaka-bus 为准。
+
 | 本地文件 | Commons 文件名 | 作者 | 许可 | 原页面（可核对） |
 |---|---|---|---|---|
 | logo-jr-mark-west.svg | File:JR logo (west).svg | JR Group, Monaneko | Public domain | https://commons.wikimedia.org/wiki/File%3AJR_logo_%28west%29.svg |
