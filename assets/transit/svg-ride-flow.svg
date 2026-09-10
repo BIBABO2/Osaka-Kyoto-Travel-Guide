@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250" font-family="Microsoft YaHei, Noto Sans SC, sans-serif">
+  <rect width="900" height="250" fill="#ffffff"/>
+  <text x="30" y="42" font-size="22" font-weight="bold" fill="#1f2328">坐电车五步流程（IC 卡版）</text>
+  <text x="30" y="68" font-size="14" fill="#5b6472">全程只做两件事：进闸「碰一下」，出闸「碰一下」；中间找对月台和车种。</text>
+  <g>
+    <rect x="30" y="92" width="150" height="110" rx="12" fill="#eef4ff" stroke="#0b62c4" stroke-width="2"/>
+    <text x="105" y="126" font-size="17" font-weight="bold" fill="#0b62c4" text-anchor="middle">① 进闸</text>
+    <text x="105" y="152" font-size="13" fill="#1f2328" text-anchor="middle">卡贴感应区「碰」</text>
+    <text x="105" y="174" font-size="13" fill="#1f2328" text-anchor="middle">不要塞进插口</text>
+  </g>
+  <path d="M186 147 L214 147" stroke="#0b62c4" stroke-width="3" marker-end="url(#arrow)"/>
+  <g>
+    <rect x="222" y="92" width="150" height="110" rx="12" fill="#f2fbf6" stroke="#0f8a5f" stroke-width="2"/>
+    <text x="297" y="126" font-size="17" font-weight="bold" fill="#0f8a5f" text-anchor="middle">② 找月台</text>
+    <text x="297" y="152" font-size="13" fill="#1f2328" text-anchor="middle">看「のりば / 番線」</text>
+    <text x="297" y="174" font-size="13" fill="#1f2328" text-anchor="middle">再核对方向牌</text>
+  </g>
+  <path d="M378 147 L406 147" stroke="#5b6472" stroke-width="3" marker-end="url(#arrow)"/>
+  <g>
+    <rect x="414" y="92" width="150" height="110" rx="12" fill="#fff8ec" stroke="#d98410" stroke-width="2"/>
+    <text x="489" y="126" font-size="17" font-weight="bold" fill="#d98410" text-anchor="middle">③ 上车</text>
+    <text x="489" y="152" font-size="13" fill="#1f2328" text-anchor="middle">看车种：普通/快速/特急</text>
+    <text x="489" y="174" font-size="13" fill="#1f2328" text-anchor="middle">特急还要特急券</text>
+  </g>
+  <path d="M570 147 L598 147" stroke="#5b6472" stroke-width="3" marker-end="url(#arrow)"/>
+  <g>
+    <rect x="606" y="92" width="120" height="110" rx="12" fill="#fff1f1" stroke="#c0392b" stroke-width="2"/>
+    <text x="666" y="126" font-size="17" font-weight="bold" fill="#c0392b" text-anchor="middle">④ 换乘</text>
+    <text x="666" y="152" font-size="13" fill="#1f2328" text-anchor="middle">同公司：站内走</text>
+    <text x="666" y="174" font-size="13" fill="#1f2328" text-anchor="middle">跨公司：先出再进</text>
+  </g>
+  <path d="M732 147 L760 147" stroke="#5b6472" stroke-width="3" marker-end="url(#arrow)"/>
+  <g>
+    <rect x="768" y="92" width="102" height="110" rx="12" fill="#eef4ff" stroke="#0b62c4" stroke-width="2"/>
+    <text x="819" y="126" font-size="17" font-weight="bold" fill="#0b62c4" text-anchor="middle">⑤ 出闸</text>
+    <text x="819" y="152" font-size="13" fill="#1f2328" text-anchor="middle">同一张卡再碰</text>
+    <text x="819" y="174" font-size="13" fill="#1f2328" text-anchor="middle">余额不够找精算机</text>
+  </g>
+  <text x="30" y="232" font-size="12.5" fill="#5b6472">注：进站与出站必须使用同一张卡或同一张票；一人一卡，不能两人共用。</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5b6472"/>
+    </marker>
+  </defs>
+</svg>

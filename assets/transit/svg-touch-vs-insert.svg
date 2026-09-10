@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" font-family="Microsoft YaHei, Noto Sans SC, sans-serif">
+  <rect width="900" height="340" fill="#ffffff"/>
+  <text x="30" y="42" font-size="22" font-weight="bold" fill="#1f2328">最容易搞错的动作：IC 卡是「碰」，纸票才是「塞」</text>
+  <g>
+    <rect x="30" y="70" width="405" height="240" rx="14" fill="#f2fbf6" stroke="#0f8a5f" stroke-width="2"/>
+    <text x="232" y="104" font-size="18" font-weight="bold" fill="#0f8a5f" text-anchor="middle">IC 卡（ICOCA / Suica / 手机 IC）</text>
+    <rect x="90" y="130" width="285" height="26" rx="13" fill="#dfe6ef" stroke="#9aa7b8"/>
+    <text x="232" y="149" font-size="12" fill="#42506a" text-anchor="middle">闸机顶部感应区</text>
+    <rect x="150" y="168" width="165" height="96" rx="10" fill="#ffffff" stroke="#9aa7b8"/>
+    <text x="232" y="99" font-size="12" fill="#5b6472" text-anchor="middle"> </text>
+    <circle cx="232" cy="196" r="26" fill="#0f8a5f" opacity="0.15"/>
+    <rect x="196" y="206" width="72" height="46" rx="7" fill="#0f8a5f"/>
+    <text x="232" y="235" font-size="13" fill="#ffffff" text-anchor="middle">IC 卡</text>
+    <text x="232" y="288" font-size="14" font-weight="bold" fill="#0f8a5f" text-anchor="middle">放到感应区上方「碰一下」即可，不要插进机器</text>
+  </g>
+  <g>
+    <rect x="465" y="70" width="405" height="240" rx="14" fill="#fff8ec" stroke="#d98410" stroke-width="2"/>
+    <text x="667" y="104" font-size="18" font-weight="bold" fill="#d98410" text-anchor="middle">纸质车票 / 新干线两张票</text>
+    <rect x="490" y="150" width="354" height="120" rx="10" fill="#ffffff" stroke="#9aa7b8"/>
+    <rect x="490" y="176" width="60" height="16" rx="4" fill="#42506a"/>
+    <text x="520" y="189" font-size="10" fill="#ffffff" text-anchor="middle">投入口</text>
+    <path d="M560 184 L610 184" stroke="#d98410" stroke-width="3" marker-end="url(#arrow2)"/>
+    <rect x="620" y="168" width="88" height="32" rx="5" fill="#f0e2c8" stroke="#d98410"/>
+    <text x="664" y="189" font-size="12" fill="#7a4b00" text-anchor="middle">票从这头出来</text>
+    <text x="667" y="228" font-size="13" fill="#1f2328" text-anchor="middle">新干线：乘车券 + 特急券 两张叠在一起同时投入</text>
+    <text x="667" y="252" font-size="13" fill="#1f2328" text-anchor="middle">出来时务必把票拿走，出站还要用它</text>
+    <text x="667" y="288" font-size="14" font-weight="bold" fill="#d98410" text-anchor="middle">出站时票会被机器回收，不会再吐出来</text>
+  </g>
+  <text x="30" y="330" font-size="12.5" fill="#5b6472">提示：把 IC 卡塞进插口会卡住并可能损坏卡片；被闸机挡住时不要反复刷，退到一旁找站务员或对讲按钮。</text>
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#d98410"/>
+    </marker>
+  </defs>
+</svg>

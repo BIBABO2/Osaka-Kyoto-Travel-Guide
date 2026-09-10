@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" font-family="Microsoft YaHei, Noto Sans SC, sans-serif">
+  <rect width="900" height="560" fill="#ffffff"/>
+  <text x="30" y="42" font-size="22" font-weight="bold" fill="#1f2328">关西主要线路示意（不是精确地图，只看「谁到谁」）</text>
+  <text x="30" y="68" font-size="14" fill="#5b6472">出发前用乘换案内 / Google 地图查具体车次，本图帮你判断「该坐哪家公司、要不要换乘」。</text>
+
+  <!-- nodes -->
+  <g font-size="14">
+    <circle cx="120" cy="140" r="13" fill="#0b62c4"/>
+    <text x="140" y="146">关西机场 KIX</text>
+    <circle cx="120" cy="480" r="13" fill="#5b6472"/>
+    <text x="140" y="486">难波（南海）</text>
+    <circle cx="430" cy="480" r="13" fill="#c0392b"/>
+    <text x="450" y="486">大阪（梅田）</text>
+    <circle cx="430" cy="146" r="13" fill="#0f8a5f"/>
+    <text x="450" y="152">京都</text>
+    <circle cx="700" cy="330" r="13" fill="#7b4ea3"/>
+    <text x="720" y="336">奈良</text>
+    <circle cx="150" cy="330" r="13" fill="#d98410"/>
+    <text x="170" y="336">神户（三宫）</text>
+  </g>
+
+  <!-- lines -->
+  <path d="M132 148 C200 200 250 420 418 470" stroke="#0b62c4" stroke-width="5" fill="none"/>
+  <text x="200" y="330" font-size="12.5" fill="#0b62c4">JR HARUKA（关空特急）直达京都</text>
+  <path d="M132 152 C210 220 240 380 132 468" stroke="#5b6472" stroke-width="5" fill="none"/>
+  <text x="150" y="420" font-size="12.5" fill="#5b6472">南海：空港急行 / 特急 Rapi:t → 难波</text>
+  <path d="M440 470 L440 158" stroke="#c0392b" stroke-width="6" fill="none"/>
+  <text x="452" y="300" font-size="13" fill="#c0392b">JR 京都线（新快速约 29 分钟）</text>
+  <path d="M410 462 C330 400 300 240 418 160" stroke="#800000" stroke-width="5" fill="none"/>
+  <text x="250" y="250" font-size="12.5" fill="#800000">阪急：大阪梅田 ⇄ 京都河原町</text>
+  <path d="M445 455 C520 400 520 250 448 165" stroke="#0f8a5f" stroke-width="5" fill="none"/>
+  <text x="530" y="250" font-size="12.5" fill="#0f8a5f">京阪：淀屋桥 ⇄ 三条 / 祇园四条</text>
+  <path d="M438 466 C560 430 660 380 692 342" stroke="#7b4ea3" stroke-width="5" fill="none"/>
+  <text x="560" y="430" font-size="12.5" fill="#7b4ea3">近铁：大阪难波 ⇄ 奈良</text>
+  <path d="M424 462 C330 440 240 380 160 342" stroke="#d98410" stroke-width="5" fill="none"/>
+  <text x="200" y="382" font-size="12.5" fill="#d98410">阪神 / 阪急：大阪 ⇄ 神户三宫</text>
+  <path d="M424 145 C560 190 660 270 692 320" stroke="#7b4ea3" stroke-width="4" fill="none" stroke-dasharray="8 6"/>
+  <text x="580" y="200" font-size="12.5" fill="#7b4ea3">近铁：京都 ⇄ 奈良（特急为主）</text>
+
+  <rect x="60" y="500" width="780" height="44" rx="10" fill="#f7f8fa" stroke="#e2e6ec"/>
+  <text x="76" y="528" font-size="13" fill="#1f2328">选择口诀：去京都优先 JR 新快速 / HARUKA；去河原町—祇园方向用阪急；去伏见稻荷、祇园四条用京阪；去奈良用近铁；去神户用阪神或阪急。</text>
+  <text x="30" y="96" font-size="12.5" fill="#5b6472">※ 全部为示意图，线路走向已简化。</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470" font-family="Microsoft YaHei, Noto Sans SC, sans-serif">
+  <rect width="900" height="470" fill="#ffffff"/>
+  <text x="30" y="42" font-size="22" font-weight="bold" fill="#1f2328">车站导视牌怎么读：一块牌子上的五条信息</text>
+  <text x="30" y="68" font-size="14" fill="#5b6472">日本车站的牌子几乎都是「汉字 + 假名 + 英文字母编号」，按下面的顺序扫一眼就能读懂。</text>
+
+  <rect x="60" y="96" width="470" height="300" rx="12" fill="#1f3a63" stroke="#0b62c4" stroke-width="2"/>
+  <text x="82" y="134" font-size="20" font-weight="bold" fill="#ffffff">乗換 のりかえ　Transfer</text>
+  <rect x="80" y="152" width="430" height="2" fill="#5b7fb5"/>
+  <g font-size="17" font-weight="bold" fill="#ffffff">
+    <rect x="80" y="172" width="200" height="40" rx="6" fill="#c0392b"/>
+    <text x="96" y="199">JR 京都線</text>
+    <rect x="296" y="172" width="200" height="40" rx="6" fill="#0f8a5f"/>
+    <text x="312" y="199">近鉄 奈良行</text>
+    <rect x="80" y="228" width="200" height="40" rx="6" fill="#0b62c4"/>
+    <text x="96" y="255">地下鉄 御堂筋線</text>
+    <rect x="296" y="228" width="200" height="40" rx="6" fill="#d98410"/>
+    <text x="312" y="255">阪急 京都行</text>
+  </g>
+  <text x="82" y="304" font-size="18" fill="#ffffff">3・4 番のりば　Platform 3・4</text>
+  <text x="82" y="334" font-size="18" fill="#ffffff">出口 5・6　Exit 5・6</text>
+  <text x="82" y="364" font-size="14" fill="#cfe0ff">ここから 150m（从这里走 150 米）</text>
+
+  <g font-size="13.5" fill="#1f2328">
+    <path d="M540 190 L646 150" stroke="#0b62c4" stroke-width="2"/>
+    <text x="652" y="146">① 线路名 + 公司色 = 找对「哪家公司、哪条线」</text>
+    <text x="652" y="170" font-size="12.5" fill="#5b6472">JR 常用蓝色系、地铁用各线专属颜色、私铁有自家配色</text>
+    <path d="M540 248 L646 226" stroke="#0f8a5f" stroke-width="2"/>
+    <text x="652" y="222">② 目的地（行き先）= 车往哪个方向开</text>
+    <text x="652" y="246" font-size="12.5" fill="#5b6472">认准「京都方面」「なんば行」这类字样</text>
+    <path d="M540 308 L646 300" stroke="#d98410" stroke-width="2"/>
+    <text x="652" y="296">③ のりば / 番線 = 几号月台</text>
+    <text x="652" y="320" font-size="12.5" fill="#5b6472">写着 3・4 表示两条轨道共用同一岛式月台</text>
+    <path d="M540 340 L646 348" stroke="#c0392b" stroke-width="2"/>
+    <text x="652" y="344">④ 出口番号 = 出站后从哪个口上去</text>
+    <text x="652" y="368" font-size="12.5" fill="#5b6472">大站出口多，先记出口号再走路</text>
+    <path d="M540 366 L646 396" stroke="#7b4ea3" stroke-width="2"/>
+    <text x="652" y="392">⑤ 距离提示 = 还要走多久</text>
+    <text x="652" y="416" font-size="12.5" fill="#5b6472">换乘赶时间时专门看这一行</text>
+  </g>
+  <text x="60" y="440" font-size="13" font-weight="bold" fill="#c0392b">看不懂时的万能做法：把目的地截图（或写在纸上）给站务员看，说「Sumimasen（不好意思）」+ 指一下手机即可。</text>
+  <text x="60" y="462" font-size="12.5" fill="#5b6472">常见字样对照：改札口=检票口、精算機=补票/充值机、みどりの窓口=JR 人工售票处、乗換=换乘、出口=出站口。</text>
+</svg>

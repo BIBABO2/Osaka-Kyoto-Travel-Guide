@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" font-family="Microsoft YaHei, Noto Sans SC, sans-serif">
+  <rect width="900" height="400" fill="#ffffff"/>
+  <text x="30" y="42" font-size="22" font-weight="bold" fill="#1f2328">三种「换乘」完全不一样，别混为一谈</text>
+  <g>
+    <rect x="30" y="66" width="270" height="286" rx="14" fill="#f2fbf6" stroke="#0f8a5f" stroke-width="2"/>
+    <text x="165" y="98" font-size="16" font-weight="bold" fill="#0f8a5f" text-anchor="middle">① 同一家公司内换乘</text>
+    <rect x="60" y="118" width="210" height="66" rx="8" fill="#ffffff" stroke="#9aa7b8"/>
+    <text x="165" y="146" font-size="13" fill="#1f2328" text-anchor="middle">月台 1（JR 大阪环状线）</text>
+    <path d="M165 188 L165 214" stroke="#0f8a5f" stroke-width="3" marker-end="url(#arrowT)"/>
+    <text x="165" y="237" font-size="13" fill="#1f2328" text-anchor="middle">站内通道直接走</text>
+    <rect x="60" y="250" width="210" height="66" rx="8" fill="#ffffff" stroke="#9aa7b8"/>
+    <text x="165" y="278" font-size="13" fill="#1f2328" text-anchor="middle">月台 2（JR 京都线）</text>
+    <text x="165" y="338" font-size="13" font-weight="bold" fill="#0f8a5f" text-anchor="middle">不出闸，票价一次算完</text>
+  </g>
+  <g>
+    <rect x="315" y="66" width="270" height="286" rx="14" fill="#fff8ec" stroke="#d98410" stroke-width="2"/>
+    <text x="450" y="98" font-size="16" font-weight="bold" fill="#d98410" text-anchor="middle">② 不同公司之间换乘</text>
+    <rect x="345" y="118" width="210" height="66" rx="8" fill="#ffffff" stroke="#9aa7b8"/>
+    <text x="450" y="146" font-size="13" fill="#1f2328" text-anchor="middle">Osaka Metro 闸机</text>
+    <path d="M450 188 L450 206" stroke="#c0392b" stroke-width="3" marker-end="url(#arrowR)"/>
+    <text x="450" y="224" font-size="12.5" fill="#c0392b" text-anchor="middle">先刷卡出闸（第一段结算）</text>
+    <path d="M450 234 L450 250" stroke="#0f8a5f" stroke-width="3" marker-end="url(#arrowT)"/>
+    <text x="450" y="268" font-size="12.5" fill="#0f8a5f" text-anchor="middle">走到阪急闸机再刷卡进闸</text>
+    <rect x="345" y="278" width="210" height="50" rx="8" fill="#ffffff" stroke="#9aa7b8"/>
+    <text x="450" y="308" font-size="13" fill="#1f2328" text-anchor="middle">阪急 大阪梅田站</text>
+    <text x="450" y="342" font-size="13" font-weight="bold" fill="#d98410" text-anchor="middle">同一张 IC 卡，分两段扣费</text>
+  </g>
+  <g>
+    <rect x="600" y="66" width="270" height="286" rx="14" fill="#eef4ff" stroke="#0b62c4" stroke-width="2"/>
+    <text x="735" y="98" font-size="16" font-weight="bold" fill="#0b62c4" text-anchor="middle">③ 直通运转（不用下车）</text>
+    <rect x="630" y="118" width="210" height="60" rx="8" fill="#ffffff" stroke="#9aa7b8"/>
+    <text x="735" y="145" font-size="13" fill="#1f2328" text-anchor="middle">A 公司线路</text>
+    <rect x="630" y="182" width="210" height="60" rx="8" fill="#ffffff" stroke="#9aa7b8"/>
+    <text x="735" y="209" font-size="13" fill="#1f2328" text-anchor="middle">B 公司线路</text>
+    <path d="M700 178 L700 148 M770 178 L770 148" stroke="#0b62c4" stroke-width="3"/>
+    <text x="735" y="266" font-size="13" fill="#1f2328" text-anchor="middle">列车直接开过去，乘客不用换车</text>
+    <text x="735" y="292" font-size="12.5" fill="#5b6472" text-anchor="middle">例：Osaka Metro 御堂筋线 ↔ 北大阪急行</text>
+    <text x="735" y="314" font-size="12.5" fill="#5b6472" text-anchor="middle">京都市营地下铁东西线 ↔ 京阪京津线</text>
+    <text x="735" y="340" font-size="13" font-weight="bold" fill="#0b62c4" text-anchor="middle">按「直通/连络」票价一次结算</text>
+  </g>
+  <text x="30" y="382" font-size="12.5" fill="#5b6472">判断方法：看站内指示牌是否写「乗換（のりかえ）」；只要要走出闸机再进闸，就按第②种处理。不确定时用 IC 卡最省事，系统会自动分段计费。</text>
+  <defs>
+    <marker id="arrowT" markerWidth="10" markerHeight="10" refX="5" refY="8" orient="auto"><path d="M0,0 L10,0 L5,10 z" fill="#0f8a5f"/></marker>
+    <marker id="arrowR" markerWidth="10" markerHeight="10" refX="5" refY="8" orient="auto"><path d="M0,0 L10,0 L5,10 z" fill="#c0392b"/></marker>
+  </defs>
+</svg>

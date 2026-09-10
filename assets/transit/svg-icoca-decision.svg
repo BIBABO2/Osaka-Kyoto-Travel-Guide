@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" font-family="Microsoft YaHei, Noto Sans SC, sans-serif">
+  <rect width="900" height="420" fill="#ffffff"/>
+  <text x="30" y="42" font-size="22" font-weight="bold" fill="#1f2328">我该买哪种卡？（关西入境场景）</text>
+  <text x="30" y="68" font-size="14" fill="#5b6472">结论：在关西，ICOCA 和 Suica 的乘车功能完全一样，只是买卡/退卡的地方不同；手机版最省事。</text>
+
+  <rect x="330" y="92" width="240" height="52" rx="10" fill="#eef4ff" stroke="#0b62c4" stroke-width="2"/>
+  <text x="450" y="124" font-size="15" font-weight="bold" fill="#0b62c4" text-anchor="middle">你的手机是 iPhone 吗？</text>
+  <path d="M330 118 L250 118 L250 176" stroke="#0b62c4" stroke-width="2" fill="none"/>
+  <text x="196" y="112" font-size="13" fill="#0f8a5f">是</text>
+  <path d="M570 118 L650 118 L650 176" stroke="#0b62c4" stroke-width="2" fill="none"/>
+  <text x="660" y="112" font-size="13" fill="#c0392b">不是</text>
+
+  <rect x="120" y="176" width="260" height="92" rx="10" fill="#e9fbf2" stroke="#0f8a5f" stroke-width="2"/>
+  <text x="250" y="206" font-size="15" font-weight="bold" fill="#0f8a5f" text-anchor="middle">手机版 Suica / ICOCA</text>
+  <text x="250" y="230" font-size="13" fill="#1f2328" text-anchor="middle">Apple 钱包直接开卡，无押金</text>
+  <text x="250" y="252" font-size="13" fill="#1f2328" text-anchor="middle">充值用 Apple Pay，出闸碰手机</text>
+
+  <rect x="520" y="176" width="260" height="92" rx="10" fill="#fff8ec" stroke="#d98410" stroke-width="2"/>
+  <text x="650" y="206" font-size="15" font-weight="bold" fill="#d98410" text-anchor="middle">安卓 / 想要实体卡</text>
+  <text x="650" y="230" font-size="13" fill="#1f2328" text-anchor="middle">在关西机场 / JR 车站买 ICOCA</text>
+  <text x="650" y="252" font-size="13" fill="#1f2328" text-anchor="middle">2,000 日元（含 500 押金）</text>
+
+  <rect x="120" y="292" width="660" height="60" rx="10" fill="#f7f8fa" stroke="#e2e6ec"/>
+  <text x="140" y="318" font-size="13.5" fill="#1f2328">安卓也可以用官方「モバイルICOCA」App（Android 10 以上、需注册会员并绑定信用卡）；临时来玩，实体 ICOCA 更简单。</text>
+  <text x="140" y="340" font-size="13.5" fill="#c0392b">退卡提醒：ICOCA 只能在 JR 西日本车站退（手续费 220 日元，押金 500 日元返还）；实体 Suica 只能在 JR 东日本退，关西退不了。</text>
+  <text x="30" y="392" font-size="12.5" fill="#5b6472">其他支付：多数私铁支持「信用卡触碰乘车」（如阪急），但覆盖不完全；大阪地铁扫码/QR 一日券是另一套系统，不能与 IC 卡混用同一行程。</text>
+  <text x="30" y="412" font-size="12.5" fill="#5b6472">来源：JR 西日本 ICOCA 官方页、Apple Pay の ICOCA、モバイルICOCA、京阪/阪急 ICOCA 页面、JR 东日本 FAQ。</text>
+</svg>

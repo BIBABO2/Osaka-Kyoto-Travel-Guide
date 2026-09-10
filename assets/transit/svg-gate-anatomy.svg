@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" font-family="Microsoft YaHei, Noto Sans SC, sans-serif">
+  <rect width="900" height="420" fill="#ffffff"/>
+  <text x="30" y="42" font-size="22" font-weight="bold" fill="#1f2328">自动改札机（闸机）长什么样、看哪里</text>
+  <text x="30" y="68" font-size="14" fill="#5b6472">认出这四个部位，坐遍关西都不慌。</text>
+  <rect x="230" y="100" width="300" height="250" rx="14" fill="#eef1f5" stroke="#42506a" stroke-width="2"/>
+  <rect x="248" y="118" width="264" height="46" rx="8" fill="#20304a"/>
+  <text x="380" y="147" font-size="14" fill="#ffffff" text-anchor="middle">显示屏（会写 残額不足 等提示）</text>
+  <rect x="248" y="176" width="264" height="40" rx="8" fill="#cfe0ff" stroke="#0b62c4"/>
+  <text x="380" y="202" font-size="14" fill="#0b62c4" text-anchor="middle">IC 感应区（凸起的圆形/方形板）</text>
+  <rect x="248" y="228" width="120" height="30" rx="6" fill="#f0e2c8" stroke="#d98410"/>
+  <text x="308" y="249" font-size="12" fill="#7a4b00" text-anchor="middle">投入口（只放纸票）</text>
+  <rect x="392" y="228" width="120" height="30" rx="6" fill="#ffe0e0" stroke="#c0392b"/>
+  <text x="452" y="249" font-size="12" fill="#c0392b" text-anchor="middle">对讲按钮（求助）</text>
+  <rect x="248" y="278" width="264" height="52" rx="8" fill="#dfe6ef" stroke="#9aa7b8"/>
+  <text x="380" y="309" font-size="14" fill="#42506a" text-anchor="middle">挡板门（刷卡成功才会开）</text>
+  <g font-size="13" fill="#1f2328">
+    <path d="M540 150 L620 150" stroke="#0b62c4" stroke-width="2"/>
+    <circle cx="540" cy="150" r="4" fill="#0b62c4"/>
+    <text x="628" y="155">红灯 + 门不开 = 有问题：先退出队列</text>
+    <path d="M540 200 L620 200" stroke="#0f8a5f" stroke-width="2"/>
+    <circle cx="540" cy="200" r="4" fill="#0f8a5f"/>
+    <text x="628" y="205">「哔」一声门开 = 正常，直接走过去</text>
+    <path d="M540 245 L620 245" stroke="#c0392b" stroke-width="2"/>
+    <circle cx="540" cy="245" r="4" fill="#c0392b"/>
+    <text x="628" y="250">响警报 = 别硬闯，找站务员</text>
+    <path d="M540 300 L620 300" stroke="#d98410" stroke-width="2"/>
+    <circle cx="540" cy="300" r="4" fill="#d98410"/>
+    <text x="628" y="305">旁边通常就是精算机 / 有人改札口</text>
+  </g>
+  <text x="30" y="385" font-size="13" font-weight="bold" fill="#c0392b">被挡住时的正确做法：退到旁边不影响别人的位置 → 把卡或票拿在手上 → 找穿制服的站务员或按对讲按钮 → 说「Help」也管用。</text>
+  <text x="30" y="408" font-size="12.5" fill="#5b6472">照片见本章图组：改札机、IC 感应区、精算机（费用调整机）。</text>
+</svg>

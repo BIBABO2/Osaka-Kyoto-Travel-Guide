@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" font-family="Microsoft YaHei, Noto Sans SC, sans-serif">
+  <rect width="900" height="420" fill="#ffffff"/>
+  <text x="30" y="42" font-size="22" font-weight="bold" fill="#1f2328">巴士上下车门与付款时机（京都 / 大阪对比）</text>
+  <text x="30" y="68" font-size="14" fill="#5b6472">记住一句话：京都和大阪的城市巴士都是「后门上、前门下、下车付款」，只有少数观光特急例外。</text>
+
+  <g>
+    <rect x="30" y="92" width="405" height="270" rx="14" fill="#f7fbf8" stroke="#0f8a5f" stroke-width="2"/>
+    <text x="232" y="124" font-size="18" font-weight="bold" fill="#0f8a5f" text-anchor="middle">京都・市巴士（均一区间 230 日元）</text>
+    <rect x="70" y="148" width="325" height="110" rx="16" fill="#dfeedd" stroke="#0f8a5f"/>
+    <rect x="86" y="176" width="60" height="60" rx="6" fill="#ffffff" stroke="#0f8a5f"/>
+    <text x="116" y="212" font-size="12" fill="#0f8a5f" text-anchor="middle">后门</text>
+    <text x="116" y="230" font-size="11" fill="#5b6472" text-anchor="middle">上车</text>
+    <rect x="320" y="176" width="60" height="60" rx="6" fill="#ffffff" stroke="#c0392b"/>
+    <text x="350" y="212" font-size="12" fill="#c0392b" text-anchor="middle">前门</text>
+    <text x="350" y="230" font-size="11" fill="#5b6472" text-anchor="middle">下车付款</text>
+    <path d="M150 206 L316 206" stroke="#0f8a5f" stroke-width="3" marker-end="url(#arrowB)"/>
+    <text x="232" y="192" font-size="12.5" fill="#0f8a5f" text-anchor="middle">上车不用刷卡、不用拿整理券（均一区间）</text>
+    <text x="232" y="284" font-size="13" fill="#1f2328" text-anchor="middle">下车前按「降車ボタン」，然后在前门付款</text>
+    <text x="232" y="308" font-size="13" fill="#1f2328" text-anchor="middle">现金在运赁箱付款（可找零），IC 卡在机器上碰一下</text>
+    <text x="232" y="336" font-size="12.5" fill="#c0392b" text-anchor="middle">例外：观光特急巴士（如 EX100/EX101）是前门上、先付款</text>
+  </g>
+
+  <g>
+    <rect x="465" y="92" width="405" height="270" rx="14" fill="#f7f9ff" stroke="#0b62c4" stroke-width="2"/>
+    <text x="667" y="124" font-size="18" font-weight="bold" fill="#0b62c4" text-anchor="middle">大阪・City Bus（均一 210 日元）</text>
+    <rect x="505" y="148" width="325" height="110" rx="16" fill="#dde8fb" stroke="#0b62c4"/>
+    <rect x="521" y="176" width="60" height="60" rx="6" fill="#ffffff" stroke="#0b62c4"/>
+    <text x="551" y="212" font-size="12" fill="#0b62c4" text-anchor="middle">后门</text>
+    <text x="551" y="230" font-size="11" fill="#5b6472" text-anchor="middle">上车</text>
+    <rect x="755" y="176" width="60" height="60" rx="6" fill="#ffffff" stroke="#c0392b"/>
+    <text x="785" y="212" font-size="12" fill="#c0392b" text-anchor="middle">前门</text>
+    <text x="785" y="230" font-size="11" fill="#5b6472" text-anchor="middle">下车付款</text>
+    <path d="M585 206 L751 206" stroke="#0b62c4" stroke-width="3" marker-end="url(#arrowB)"/>
+    <text x="667" y="192" font-size="12.5" fill="#0b62c4" text-anchor="middle">上车不用刷卡、不用拿整理券</text>
+    <text x="667" y="284" font-size="13" fill="#1f2328" text-anchor="middle">下车前按下车铃，在前门付款（现金/IC/触碰信用卡）</text>
+    <text x="667" y="308" font-size="13" fill="#1f2328" text-anchor="middle">车费按「大人 12 岁以上 210 日元」均一</text>
+    <text x="667" y="336" font-size="12.5" fill="#c0392b" text-anchor="middle">注意：机场巴士/IKEA 等特定路线不适用均一制</text>
+  </g>
+  <text x="30" y="392" font-size="12.5" fill="#5b6472">郊区/多区间路线（京都往大原、贵船等方向，白色底黑字方向幕）上车要拿「整理券」，下车按号码付费；用 IC 卡则上车、下车各碰一次。</text>
+  <defs>
+    <marker id="arrowB" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5b6472"/></marker>
+  </defs>
+</svg>

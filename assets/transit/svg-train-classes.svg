@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" font-family="Microsoft YaHei, Noto Sans SC, sans-serif">
+  <rect width="900" height="440" fill="#ffffff"/>
+  <text x="30" y="42" font-size="22" font-weight="bold" fill="#1f2328">日本铁路车种等级：从「站站停」到「新干线」</text>
+  <text x="30" y="68" font-size="14" fill="#5b6472">越往上越快、停站越少、越可能需要额外买票。看车头/月台上的「种别」标识判断。</text>
+  <g font-size="14">
+    <rect x="60" y="330" width="180" height="62" rx="10" fill="#eef1f5" stroke="#42506a" stroke-width="2"/>
+    <text x="150" y="357" font-size="16" font-weight="bold" fill="#42506a" text-anchor="middle">各駅停車 / 普通</text>
+    <text x="150" y="380" font-size="12" fill="#5b6472" text-anchor="middle">每站都停・IC 卡直接刷</text>
+
+    <rect x="270" y="286" width="180" height="62" rx="10" fill="#e8f4ff" stroke="#0b62c4" stroke-width="2"/>
+    <text x="360" y="313" font-size="16" font-weight="bold" fill="#0b62c4" text-anchor="middle">快速</text>
+    <text x="360" y="336" font-size="12" fill="#5b6472" text-anchor="middle">跳过部分小站</text>
+
+    <rect x="480" y="242" width="180" height="62" rx="10" fill="#e9fbf2" stroke="#0f8a5f" stroke-width="2"/>
+    <text x="570" y="269" font-size="16" font-weight="bold" fill="#0f8a5f" text-anchor="middle">新快速</text>
+    <text x="570" y="292" font-size="12" fill="#5b6472" text-anchor="middle">京都⇄大阪约 29 分钟</text>
+
+    <rect x="390" y="170" width="200" height="62" rx="10" fill="#fff4e6" stroke="#d98410" stroke-width="2"/>
+    <text x="490" y="197" font-size="16" font-weight="bold" fill="#d98410" text-anchor="middle">特急（在来线）</text>
+    <text x="490" y="220" font-size="12" fill="#5b6472" text-anchor="middle">要另买特急券・多为指定席</text>
+
+    <rect x="606" y="96" width="230" height="62" rx="10" fill="#ffecec" stroke="#c0392b" stroke-width="2"/>
+    <text x="721" y="123" font-size="16" font-weight="bold" fill="#c0392b" text-anchor="middle">新干线</text>
+    <text x="721" y="146" font-size="12" fill="#5b6472" text-anchor="middle">乘车券 + 特急券・可指定席</text>
+  </g>
+  <path d="M150 322 L340 322" stroke="#c9d2de" stroke-width="3" marker-end="url(#arrowC)"/>
+  <path d="M360 278 L550 278" stroke="#c9d2de" stroke-width="3" marker-end="url(#arrowC)"/>
+  <path d="M570 234 L580 240" stroke="#c9d2de" stroke-width="3"/>
+  <path d="M470 232 L470 240" stroke="#c9d2de" stroke-width="3" marker-end="url(#arrowC)"/>
+  <text x="500" y="300" font-size="12.5" fill="#5b6472">（示意：越靠上越快）</text>
+  <text x="60" y="416" font-size="12.5" fill="#c0392b">重点：普通/快速/新快速只买一张票或刷 IC 卡即可；特急（含 HARUKA）与新干线必须加买「特急券」，且多为全车指定席。</text>
+  <defs>
+    <marker id="arrowC" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c9d2de"/></marker>
+  </defs>
+</svg>
