@@ -58,41 +58,25 @@
 
 **JR 集团（全国性）**：JR 是「Japan Railways」的缩写，1987 年国铁民营化后拆成 7 家公司。三家你一定会遇到：**JR 西日本**（关西、山阳、北陆，蓝色）、**JR 东海**（名古屋、静冈、新干线，橙色）、**JR 东日本**（关东、东北，绿色）。〔S1〕〔S19〕〔S22〕
 
-![JR 西日本（关西主力）标志](assets/transit/logo-jr-mark-west.svg)
+下面这张图把 JR 三个「同名不同色」的标志和三家公司的全称标志放在一起，一眼就能对照：
 
-![JR 东海（新干线、名古屋方向）标志](assets/transit/logo-jr-mark-central.svg)
-
-![JR 东日本（关东、Suica 发行方）标志](assets/transit/logo-jr-mark-east.svg)
-
-三家公司的完整公司标志（买票、看指示牌时都会出现）：
-
-![JR 西日本公司标志](assets/transit/logo-jr-west.svg)
-
-![JR 东海公司标志](assets/transit/logo-jr-central.svg)
-
-![JR 东日本公司标志](assets/transit/logo-jr-east.svg)
+![JR 集团标志速查：JR 西日本（蓝）、JR 东海（橙）、JR 东日本（绿），以及三家公司的全称标志](assets/transit/sheet-jr.svg)
 
 **公营地下铁**：大阪地铁已公司化，标志为 **Osaka Metro**（深蓝底、白色 M 造型）；京都市营地下铁有自己的乌丸线（绿）、东西线（红）标志。〔S13〕〔S9〕
 
-![Osaka Metro 标志](assets/transit/logo-osaka-metro.svg)
-
-![京都市营地下铁标志](assets/transit/logo-kyoto-subway.svg)
-
 **关西主要私铁**：阪急（栗色）、京阪（绿/红）、近铁（红）、南海（蓝）、阪神（黑/黄）。它们和 JR、地铁是**互相独立的公司**，闸机分开、票价分开算。〔S26〕〔S29〕〔S22〕〔S24〕〔S28〕
 
-![阪急电铁标志](assets/transit/logo-hankyu.svg)
+五家私铁的标志汇总（按颜色记，比记名字快）：
 
-![京阪电铁标志](assets/transit/logo-keihan.svg)
-
-![近畿日本铁道标志](assets/transit/logo-kintetsu.svg)
-
-![南海电铁标志](assets/transit/logo-nankai.svg)
-
-![阪神电铁标志](assets/transit/logo-hanshin.png)
+![关西五家私铁标志速查：阪急（栗红）、京阪（绿红）、近铁（红）、南海（蓝）、阪神（黑黄）](assets/transit/sheet-kansai-private.svg)
 
 **巴士**：大阪市内的城市巴士由 **大阪 City Bus** 运营（原 Osaka Metro 巴士部门），标志如下；京都则是京都市交通局的市巴士（车身淡绿色）。〔S20〕〔S7〕
 
-![大阪 City Bus 标志](assets/transit/logo-osaka-citybus.png)
+地下铁与巴士的公司标志汇总：
+
+![地下铁与巴士标志速查：Osaka Metro、京都市营地下铁、大阪 City Bus](assets/transit/sheet-subway-bus.svg)
+
+> **怎么用这张图**：进闸前先看闸机上方或旁边的公司标志——蓝色 JR＝JR 西日本，橙色＝JR 东海，栗红＝阪急，深蓝方框 M＝Osaka Metro。认出公司，就知道这张票/这张卡能不能过这个闸机。
 
 ### 2.2 车站导视牌怎么读 {#s2-2}
 
@@ -128,9 +112,7 @@
 | 優先席 | 优先座 | 老人、孕妇、带小孩者优先，让座很正常〔S6〕 |
 | 荷物置き場 | 行李放置区 | 新干线部分车厢设有 |
 
-![优先座标识实拍（东京圈车厢示例，关西车厢标识样式相同）](assets/transit/photo-priority-seat.jpg)
-
-![女性专用车标识实拍（标识样式示例；关西以站台当日标注的车厢位置为准）](assets/transit/photo-women-only.jpg)
+![优先座标识实拍（东京圈车厢示例，关西车厢标识样式相同）](assets/transit/photo-priority-seat.jpg) ![女性专用车标识实拍（标识样式示例；关西以站台当日标注的车厢位置为准）](assets/transit/photo-women-only.jpg)
 
 ---
 
@@ -153,7 +135,7 @@
 
 实拍：自动闸机与 IC 感应区（把卡放在凸起的感应板上即可）。
 
-![自动闸机实拍（东京圈 PASMO 闸机示例，关西设备外观相近）](assets/transit/photo-ticket-gate.jpg)
+![自动闸机实拍（东京圈 PASMO 闸机示例，关西设备外观相近）](assets/transit/photo-ticket-gate.jpg) ![京都站的 ICOCA 闸机实拍](assets/transit/photo-icoca-gate.jpg)
 
 ![京都站的 ICOCA 闸机实拍](assets/transit/photo-icoca-gate.jpg)
 
@@ -442,9 +424,7 @@ JR ⇄ 私铁 ⇄ 地下铁之间的换乘，**必须先从一家公司的闸机
 | 退卡费 | 手续费 220 日元；余额不足时从押金扣，押金 500 日元返还〔S28〕 | 同类规则（手续费 220 日元）⚠️〔S31〕 |
 | 手机版 | Apple Pay 版 ICOCA（iPhone/Apple Watch）〔S3〕；安卓有官方「モバイルICOCA」〔S4〕 | iPhone 可直接开手机版 Suica，无押金〔S30〕 |
 
-![ICOCA 卡实拍](assets/transit/photo-icoca-card.jpg)
-
-![Suica 刷卡实拍](assets/transit/photo-suica-tap.jpg)
+![ICOCA 卡实拍](assets/transit/photo-icoca-card.jpg) ![Suica 刷卡实拍](assets/transit/photo-suica-tap.jpg)
 
 ![Welcome Suica（短期游客版）实拍](assets/transit/photo-welcome-suica.jpg)
 
@@ -721,7 +701,8 @@ JR ⇄ 私铁 ⇄ 地下铁之间的换乘，**必须先从一家公司的闸机
 本文档全部配图分两类：
 
 1. **自制 SVG 图解**（10 张，文件名以 `svg-` 开头）：由本次整理绘制，可自由使用，用于解释流程与规则。
-2. **公司标识与实拍照片**（34 张：16 张公司标识 + 18 张实拍）：来自 Wikimedia Commons，许可为公有领域或 CC 系列；逐张的作者、许可与原页面见 [`assets/transit/CREDITS.md`](assets/transit/CREDITS.md)。
+2. **公司标志汇总图**（3 张，文件名以 `sheet-` 开头）：把 JR 三家、关西五家私铁、地下铁与巴士的标志各合成一张速查图；底图取自下面第 3 类素材。
+3. **公司标识与实拍照片**（34 张：16 张公司标识 + 18 张实拍）：来自 Wikimedia Commons，许可为公有领域或 CC 系列；逐张的作者、许可与原页面见 [`assets/transit/CREDITS.md`](assets/transit/CREDITS.md)。
 
 > 标识（logo）与商标版权归各铁路/巴士公司所有，此处仅用于乘车识读说明，不代表任何隶属或授权关系。
 
@@ -731,5 +712,6 @@ JR ⇄ 私铁 ⇄ 地下铁之间的换乘，**必须先从一家公司的闸机
 |---|---|---|
 | v1 | 2026-09-11 | 以 DeepSeek 原稿为基础重排为 15 章；补入公司标识与车站导视图解、列车种类详解、关西三大线路实操、直通运转与改札外乘继、IC 卡与特急/新干线座位规则；按官方页面校正「大阪巴士前门上车」「IC 卡完全不能坐新干线」等说法；全部关键结论给出出处并做三源核验；新增 44 张配图（10 张自制图解 + 16 张公司标识 + 18 张实拍）。 |
 | v1 | 2026-09-11 | 文件集整理：原始底稿改名为 `Osaka-Kyoto-Transit-Guide-v0-Source-Original.md` 并随站点发布；本页网页与 Markdown 统一同名；补充市巴士票价制度可能调整的提醒。 |
+| v1 | 2026-09-11 | 阅读体验优化：正文序号改为可点击跳转；全部网页新增悬浮「回到目录」按钮；16 张单个公司标志合并为 3 张分类速查图（JR / 关西私铁 / 地下铁与巴士）；相关照片改为两图并列排版，减少翻页长度。 |
 
 > **更新方式**：内容有实质变化时升版本号（v1 → v2），旧版本文件保留不删除；每次更新在本表登记。

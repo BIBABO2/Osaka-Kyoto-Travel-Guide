@@ -22,7 +22,7 @@
 | 文档 | 类型 | 直链 |
 |---|---|---|
 | 旅行文档总目录（本页入口） | 网页 | https://bibabo2.github.io/Osaka-Kyoto-Travel-Guide/ |
-| 公共交通乘车攻略 v1（15 章・约 8000 字・44 张图・45 条来源） | 网页 | https://bibabo2.github.io/Osaka-Kyoto-Travel-Guide/Osaka-Kyoto-Transit-Guide-v1.html |
+| 公共交通乘车攻略 v1（15 章・约 8000 字・33 张图・45 条来源） | 网页 | https://bibabo2.github.io/Osaka-Kyoto-Travel-Guide/Osaka-Kyoto-Transit-Guide-v1.html |
 | 同上 | Markdown | https://bibabo2.github.io/Osaka-Kyoto-Travel-Guide/Osaka-Kyoto-Transit-Guide-v1.md |
 | 乘车速查卡 v1（一页版） | 网页 | https://bibabo2.github.io/Osaka-Kyoto-Travel-Guide/Osaka-Kyoto-Transit-Cheatsheet-v1.html |
 | 同上 | Markdown | https://bibabo2.github.io/Osaka-Kyoto-Travel-Guide/Osaka-Kyoto-Transit-Cheatsheet-v1.md |
@@ -31,7 +31,7 @@
 | 攻略制作指南 v1 | 网页 | https://bibabo2.github.io/Osaka-Kyoto-Travel-Guide/Osaka-Kyoto-Guide-Making-Playbook-v1.html |
 | 同上 | Markdown | https://bibabo2.github.io/Osaka-Kyoto-Travel-Guide/Osaka-Kyoto-Guide-Making-Playbook-v1.md |
 | 乘车攻略 原始底稿 v0（原样保留，不修改） | Markdown | https://bibabo2.github.io/Osaka-Kyoto-Travel-Guide/Osaka-Kyoto-Transit-Guide-v0-Source-Original.md |
-| 配图版权与出处清单（44 张逐张列作者/许可/原页面） | Markdown | https://bibabo2.github.io/Osaka-Kyoto-Travel-Guide/assets/transit/CREDITS.md |
+| 配图版权与出处清单（原始素材逐张列作者/许可/原页面） | Markdown | https://bibabo2.github.io/Osaka-Kyoto-Travel-Guide/assets/transit/CREDITS.md |
 
 ---
 
@@ -39,7 +39,9 @@
 
 **公共交通乘车攻略 v1**（`Osaka-Kyoto-Transit-Guide-v1.*`）
 
-1. 三条铁律 → 2. 公司标识与车站导视图解 → 3. 改札机（闸机）完全解读 → 4. 坐电车四条路径（IC 卡／纸票／手机 IC／QR）→ 5. 列车种类详解（各停→新快速→特急→新干线、特大行李规则）→ 6. 关西主要线路怎么买票怎么坐 → 7. 京都/大阪巴士规则 → 8. 三种换乘与直通运转 → 9. IC 卡（ICOCA/Suica/手机 IC、退卡、优惠券取舍）→ 10. 对号入座与座位规则 → 11. 现场应急处理 → 12. 避坑清单 → 13. 行前工具与话术 → 14. 中日英对照表 → 15. 来源清单、核验矩阵、图片版权、更新记录。
+1. 三条铁律 → 2. 公司标识与车站导视图解（JR／关西私铁／地下铁与巴士各一张速查图）→ 3. 改札机（闸机）完全解读 → 4. 坐电车四条路径（IC 卡／纸票／手机 IC／QR）→ 5. 列车种类详解（各停→新快速→特急→新干线、特大行李规则）→ 6. 关西主要线路怎么买票怎么坐 → 7. 京都/大阪巴士规则 → 8. 三种换乘与直通运转 → 9. IC 卡（ICOCA/Suica/手机 IC、退卡、优惠券取舍）→ 10. 对号入座与座位规则 → 11. 现场应急处理 → 12. 避坑清单 → 13. 行前工具与话术 → 14. 中日英对照表 → 15. 来源清单、核验矩阵、图片版权、更新记录。
+
+阅读辅助：正文的「第 9 章」「见 8.3」等序号可直接点击跳转；桌面与手机端右下角都有悬浮「回到目录」按钮；相邻照片采用两图并列排版，减少翻页长度。
 
 **乘车速查卡 v1**（`Osaka-Kyoto-Transit-Cheatsheet-v1.*`）：三条铁律、闸机四步、京都/大阪巴士口诀、IC 卡要点、必背 10 个日语词、三个最容易走错的换乘站。
 

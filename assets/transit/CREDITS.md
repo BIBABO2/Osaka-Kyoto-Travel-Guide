@@ -31,6 +31,16 @@
 
 > 说明：标注「东京圈示例」的照片用于说明标识样式；关西本地场景以 photo-icoca-gate、photo-osaka-metro-gate、photo-charge-machine、photo-fare-adjustment、photo-haruka、photo-rapit、photo-kyoto-bus、photo-osaka-bus 为准。
 
+## 合成速查图（由本目录素材生成）
+
+为方便阅读，下列 3 张分类速查图由本目录中的公司标识合成，内容与上表素材一一对应，可随时用 `tools/make-logo-sheets.js` 重新生成：
+
+| 合成图 | 包含的标识 |
+|---|---|
+| sheet-jr.svg | logo-jr-mark-west.svg、logo-jr-mark-central.svg、logo-jr-mark-east.svg、logo-jr-west.svg、logo-jr-central.svg、logo-jr-east.svg |
+| sheet-kansai-private.svg | logo-hankyu.svg、logo-keihan.svg、logo-kintetsu.svg、logo-nankai.svg、logo-hanshin.png |
+| sheet-subway-bus.svg | logo-osaka-metro.svg、logo-kyoto-subway.svg、logo-osaka-citybus.png |
+
 | 本地文件 | Commons 文件名 | 作者 | 许可 | 原页面（可核对） |
 |---|---|---|---|---|
 | logo-jr-mark-west.svg | File:JR logo (west).svg | JR Group, Monaneko | Public domain | https://commons.wikimedia.org/wiki/File%3AJR_logo_%28west%29.svg |
