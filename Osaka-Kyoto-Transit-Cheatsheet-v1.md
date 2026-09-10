@@ -1,6 +1,6 @@
 # 京都・大阪 乘车速查卡（v1）
 
-> 截图保存 / 打印随身带。完整版见《京都・大阪 公共交通乘车攻略 v1》。
+> 截图保存 / 打印随身带。完整版见[《京都・大阪 公共交通乘车攻略 v1》](Osaka-Kyoto-Transit-Guide-v1.html)，各条细则对应章节：[第 3 章 闸机](Osaka-Kyoto-Transit-Guide-v1.html#ch3)｜[第 7 章 巴士](Osaka-Kyoto-Transit-Guide-v1.html#ch7)｜[第 9 章 IC 卡](Osaka-Kyoto-Transit-Guide-v1.html#ch9)｜[第 11 章 应急处置](Osaka-Kyoto-Transit-Guide-v1.html#ch11)
 > 整理日期：2026-09-11　|　票价与规则为 2026-09-11 抓取口径，出行前请再核对一次。
 
 ---
@@ -17,6 +17,8 @@
 
 ## 闸机四步
 
+> 详细说明：[第 3 章 改札与闸机完全解读](Osaka-Kyoto-Transit-Guide-v1.html#ch3)
+
 | 步骤 | 做法 |
 |---|---|
 | 1 | 卡贴感应区（或纸票插投入口） |
@@ -28,6 +30,8 @@
 
 ## 巴士口诀
 
+> 详细说明：[第 7 章 坐巴士](Osaka-Kyoto-Transit-Guide-v1.html#ch7)
+
 | 城市 | 口诀 | 票价 |
 |---|---|---|
 | 京都 | 后门上车 → 前门下车 → **下车付款** | 均一 230 日元（观光特急 500） |
@@ -38,6 +42,8 @@
 - 京都多区间路线（白底黑字方向幕）才需要拿整理券。
 
 ## IC 卡要点
+
+> 详细说明：[第 9 章 交通 IC 卡](Osaka-Kyoto-Transit-Guide-v1.html#ch9)
 
 - 关西买 **ICOCA**（2,000 日元 = 500 押金 + 1,500 余额）；关西买不到实体 Suica。
 - iPhone 可在钱包里直接开 Suica / ICOCA（无押金）；安卓用官方「モバイルICOCA」。
@@ -70,6 +76,8 @@
 | 終電（しゅうでん） | 末班车 |
 
 ## 现场应急三步
+
+> 详细说明：[第 11 章 遇到问题怎么办](Osaka-Kyoto-Transit-Guide-v1.html#ch11)
 
 1. **停**：被闸机挡住不要反复刷卡，先退出队列。
 2. **查**：看闸机屏幕提示（余额不足＝残額不足）。

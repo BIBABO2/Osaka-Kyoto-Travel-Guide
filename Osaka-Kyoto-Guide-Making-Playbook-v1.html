@@ -29,9 +29,16 @@
   code { background:#eef1f5; padding:1px 5px; border-radius:4px; font-size:90%; }
   a { color:var(--accent); }
   #content p { margin:8px 0; }
+  #back-to-toc { position:fixed; right:18px; bottom:18px; z-index:60; display:none; align-items:center; gap:6px;
+    padding:10px 14px; border-radius:999px; border:1px solid var(--accent); background:#fff; color:var(--accent);
+    font-size:13px; font-family:inherit; cursor:pointer; box-shadow:0 6px 18px rgba(15,35,70,.16); }
+  #back-to-toc.show { display:inline-flex; }
+  #back-to-toc:hover { background:var(--accent); color:#fff; }
+  @media print { #back-to-toc { display:none !important; } }
   @media (max-width:900px) {
     #sidebar { position:static; width:auto; max-height:45vh; border-right:0; border-bottom:1px solid var(--border); }
     #content { margin-left:0; padding:20px 16px 60px; }
+    #back-to-toc { right:12px; bottom:12px; }
   }
 </style>
 </head>
@@ -197,10 +204,12 @@
 <li>v1（2026-09-11，去重与命名统一）：按用户要求统一「网页 / Markdown」同名规则（如 Osaka-Kyoto-Transit-Guide-v1.html 与 .md 同名）；删除重复版本：旧合并版 Osaka-Kyoto-NationalDay-Notes.md / .html、分享版 Osaka-Kyoto-Travel-Guide-Share-v1.html（内容已并入 Osaka-Kyoto-NationalDay-Travel-Guide-v1.html）；站点旧地址 travel-guide-v1.html 已移除；原始底稿更名为 Osaka-Kyoto-Transit-Guide-v0-Source-Original.md 并随站点发布。删除前的副本保存在本地 <code>.cache/archive-20260911/</code>。</li>
 </ul>
 </main>
+<button id="back-to-toc" type="button" title="回到目录">↑ 回到目录</button>
 <script>
   const box = document.getElementById('tocbox');
   const input = document.getElementById('search');
   const items = Array.from(box.querySelectorAll('li'));
+  const back = document.getElementById('back-to-toc');
   input.addEventListener('input', () => {
     const q = input.value.trim().toLowerCase();
     let n = 0;
@@ -210,6 +219,13 @@
       li.classList.toggle('hide', !hit);
       if (hit) n++;
     });
+  });
+  back.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    if (window.innerWidth > 900) input.focus({ preventScroll: true });
+  });
+  window.addEventListener('scroll', () => {
+    back.classList.toggle('show', window.scrollY > 320);
   });
 </script>
 </body>

@@ -11,6 +11,7 @@
 <style>
   :root{--border:#e2e6ec;--accent:#0b62c4;--accent2:#0f8a5f;--bg:#f7f8fa;--ink:#1f2328;--muted:#5b6472;}
   *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
   body{margin:0;background:var(--bg);color:var(--ink);line-height:1.75;
     font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;-webkit-text-size-adjust:100%;}
   header{background:linear-gradient(135deg,#0b62c4,#0f8a5f);color:#fff;padding:38px 22px 30px;}
@@ -20,8 +21,10 @@
   header .share{margin-top:14px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.45);
     border-radius:12px;padding:10px 14px;font-size:14px;word-break:break-all;}
   header .share b{font-weight:700;}
+  header .jump{margin-top:10px;font-size:13.5px;}
+  header .jump a{color:#fff;text-decoration:underline;margin-right:12px;}
   main{max-width:1040px;margin:0 auto;padding:22px 18px 70px;}
-  h2{font-size:19px;margin:32px 0 12px;border-left:4px solid var(--accent);padding-left:10px;}
+  h2{font-size:19px;margin:32px 0 12px;border-left:4px solid var(--accent);padding-left:10px;scroll-margin-top:16px;}
   .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:14px;}
   .card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:16px 18px;}
   .card h3{margin:0 0 4px;font-size:17px;}
@@ -40,7 +43,14 @@
   footer{max-width:1040px;margin:0 auto;padding:0 18px 50px;color:var(--muted);font-size:13px;}
   code{background:#eef1f5;padding:1px 5px;border-radius:4px;font-size:90%;}
   .tip{background:#fff8ec;border:1px solid #f0d5a8;border-radius:12px;padding:12px 14px;font-size:14px;}
-  @media (max-width:560px){header h1{font-size:22px;} main{padding:16px 12px 60px;} table{font-size:12.5px;}}
+  #back-to-toc{position:fixed;right:18px;bottom:18px;z-index:60;display:none;align-items:center;gap:6px;
+    padding:10px 14px;border-radius:999px;border:1px solid var(--accent);background:#fff;color:var(--accent);
+    font-size:13px;font-family:inherit;cursor:pointer;box-shadow:0 6px 18px rgba(15,35,70,.16);}
+  #back-to-toc.show{display:inline-flex;}
+  #back-to-toc:hover{background:var(--accent);color:#fff;}
+  @media (max-width:560px){header h1{font-size:22px;} main{padding:16px 12px 60px;} table{font-size:12.5px;}
+    #back-to-toc{right:12px;bottom:12px;}}
+  @media print{#back-to-toc{display:none!important;}}
 </style>
 </head>
 <body>
@@ -52,11 +62,14 @@
     <div class="share">
       <b>分享这一条链接就够了：</b> https://bibabo2.github.io/Osaka-Kyoto-Travel-Guide/
     </div>
+    <div class="jump">
+      <a href="#pick">先看哪一份</a><a href="#cards">文档卡片</a><a href="#links">全部直链</a><a href="#versions">版本记录</a>
+    </div>
   </div>
 </header>
 
 <main>
-  <h2>先看哪一份？</h2>
+  <h2 id="pick">先看哪一份？</h2>
   <table>
     <tr><th>你的情况</th><th>建议直接看</th></tr>
     <tr><td>马上要出发，想知道「怎么坐车、怎么买票、会不会坐错」</td><td><a href="Osaka-Kyoto-Transit-Guide-v1.html">公共交通乘车攻略 v1</a>（先看第 1、3、7、9 章）</td></tr>
@@ -65,7 +78,52 @@
     <tr><td>想知道资料怎么核对、以后怎么更新</td><td><a href="Osaka-Kyoto-Guide-Making-Playbook-v1.html">攻略制作指南 v1</a></td></tr>
   </table>
 
-  <h2>全部文档与直链（可复制分享）</h2>
+  <h2 id="cards">文档卡片（按内容浏览）</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>公共交通乘车攻略 v1</h3>
+      <div class="meta"><span class="tag">v1</span>2026-09-11 ・ 约 8000 字 ・ 44 张配图 ・ 45 条来源</div>
+      <p>从「改札是什么」讲起：闸机怎么刷、ICOCA/Suica 怎么选、巴士上下车门、三种换乘、列车种类（普通→新干线）、对号入座规则、现场应急处理，附标识图解与官方来源清单。正文里的「第 9 章」这类序号可以直接点开跳转。</p>
+      <div class="links">
+        <a class="primary" href="Osaka-Kyoto-Transit-Guide-v1.html">网页版（手机可读）</a>
+        <a href="Osaka-Kyoto-Transit-Guide-v1.md">Markdown 原文</a>
+        <a class="plain" href="assets/transit/CREDITS.md">配图版权清单</a>
+        <a class="plain" href="Osaka-Kyoto-Transit-Guide-v0-Source-Original.md">原始底稿 v0</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>乘车速查卡 v1</h3>
+      <div class="meta"><span class="tag">v1</span>2026-09-11 ・ 一页版</div>
+      <p>三条铁律、闸机四步、京都/大阪巴士口诀、IC 卡要点、必背 10 个日语词、三个最容易走错的换乘站。适合截图或打印随身带。</p>
+      <div class="links">
+        <a class="primary" href="Osaka-Kyoto-Transit-Cheatsheet-v1.html">网页版</a>
+        <a href="Osaka-Kyoto-Transit-Cheatsheet-v1.md">Markdown 原文</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>大阪・京都 国庆旅游攻略 v1</h3>
+      <div class="meta"><span class="tag">v1</span>2026-09-09 ・ 完整版</div>
+      <p>出发前准备（签证／机票／保险／行李）、深圳→香港机场衔接、入境流程与海关、抵达后交通、衣食住行与购物免税、风土礼仪、离境与复查清单。</p>
+      <div class="links">
+        <a class="primary" href="Osaka-Kyoto-NationalDay-Travel-Guide-v1.html">网页版</a>
+        <a href="Osaka-Kyoto-NationalDay-Travel-Guide-v1.md">Markdown 原文</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>攻略制作指南 v1</h3>
+      <div class="meta"><span class="tag">v1</span>2026-09-09 ・ 方法说明</div>
+      <p>说明这些文档按什么要求制作、信息来源如何分级与三重核验、版本如何管理，以及后续更新的标准流程。</p>
+      <div class="links">
+        <a class="primary" href="Osaka-Kyoto-Guide-Making-Playbook-v1.html">网页版</a>
+        <a href="Osaka-Kyoto-Guide-Making-Playbook-v1.md">Markdown 原文</a>
+      </div>
+    </div>
+  </div>
+
+  <h2 id="links">全部文档与直链（可复制分享）</h2>
   <div class="tip">手机用户：长按链接即可复制；电脑用户：右键「复制链接地址」。网页版带目录跳转，Markdown 适合再编辑或喂给 AI 继续整理。</div>
   <table>
     <tr><th>文档</th><th>类型</th><th>直链</th></tr>
@@ -115,67 +173,35 @@
     </tr>
   </table>
 
-  <h2>文档卡片（按内容浏览）</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>公共交通乘车攻略 v1</h3>
-      <div class="meta"><span class="tag">v1</span>2026-09-11 ・ 约 8000 字 ・ 44 张配图</div>
-      <p>从「改札是什么」讲起：闸机怎么刷、ICOCA/Suica 怎么选、巴士上下车门、三种换乘、列车种类（普通→新干线）、对号入座规则、现场应急处理，附标识图解与官方来源清单。</p>
-      <div class="links">
-        <a class="primary" href="Osaka-Kyoto-Transit-Guide-v1.html">网页版（手机可读）</a>
-        <a href="Osaka-Kyoto-Transit-Guide-v1.md">Markdown 原文</a>
-        <a class="plain" href="assets/transit/CREDITS.md">配图版权清单</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <h3>乘车速查卡 v1</h3>
-      <div class="meta"><span class="tag">v1</span>2026-09-11 ・ 一页版</div>
-      <p>三条铁律、闸机四步、京都/大阪巴士口诀、IC 卡要点、必背 10 个日语词、三个最容易走错的换乘站。适合截图或打印随身带。</p>
-      <div class="links">
-        <a class="primary" href="Osaka-Kyoto-Transit-Cheatsheet-v1.html">网页版</a>
-        <a href="Osaka-Kyoto-Transit-Cheatsheet-v1.md">Markdown 原文</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <h3>大阪・京都 国庆旅游攻略 v1</h3>
-      <div class="meta"><span class="tag">v1</span>2026-09-09 ・ 完整版</div>
-      <p>出发前准备（签证／机票／保险／行李）、深圳→香港机场衔接、入境流程与海关、抵达后交通、衣食住行与购物免税、风土礼仪、离境与复查清单。</p>
-      <div class="links">
-        <a class="primary" href="Osaka-Kyoto-NationalDay-Travel-Guide-v1.html">网页版</a>
-        <a href="Osaka-Kyoto-NationalDay-Travel-Guide-v1.md">Markdown 原文</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <h3>攻略制作指南 v1</h3>
-      <div class="meta"><span class="tag">v1</span>2026-09-09 ・ 方法说明</div>
-      <p>说明这些文档按什么要求制作、信息来源如何分级与三重核验、版本如何管理，以及后续更新的标准流程。</p>
-      <div class="links">
-        <a class="primary" href="Osaka-Kyoto-Guide-Making-Playbook-v1.html">网页版</a>
-        <a href="Osaka-Kyoto-Guide-Making-Playbook-v1.md">Markdown 原文</a>
-      </div>
-    </div>
-  </div>
-
-  <h2>版本与更新规则</h2>
+  <h2 id="versions">版本与更新规则</h2>
   <table>
     <tr><th>版本</th><th>日期</th><th>说明</th></tr>
-    <tr><td>乘车攻略 v1</td><td>2026-09-11</td><td>以 DeepSeek 原稿为基础重排为 15 章；补入标识图解、列车种类详解、直通运转与改札外乘继、IC 卡与座位规则；按官方页面校正「大阪巴士前门上车付款」「IC 卡完全不能坐新干线」等说法；关键结论三源核验并附来源清单。</td></tr>
+    <tr><td>乘车攻略 v1</td><td>2026-09-11</td><td>以 DeepSeek 原稿为基础重排为 15 章；补入标识图解、列车种类详解、直通运转与改札外乘继、IC 卡与座位规则；按官方页面校正「大阪巴士前门上车付款」「IC 卡完全不能坐新干线」等说法；关键结论三源核验并附来源清单。同日补充：正文序号可点击跳转、增加悬浮「回到目录」按钮。</td></tr>
     <tr><td>旅游攻略 v1</td><td>2026-09-09</td><td>国庆行程完整注意事项（签证、入境、交通、购物、礼仪），每条附来源编号。</td></tr>
     <tr><td>制作指南 v1</td><td>2026-09-09</td><td>制作方法、验证规则与更新规程；2026-09-11 补充新工具与去重、命名统一记录。</td></tr>
-    <tr><td>总目录 v1</td><td>2026-09-11</td><td>本页：汇总全部文档、直链与版本信息，作为统一分享入口。</td></tr>
+    <tr><td>总目录 v1</td><td>2026-09-11</td><td>本页：汇总全部文档、直链与版本信息，作为统一分享入口；2026-09-11 调整版块顺序（卡片在前、直链在后）并加入页内快捷跳转。</td></tr>
   </table>
   <p>版本规则：内容有实质变化时升版本号（v1 → v2），旧版本文件保留不删除，并在各文档「更新记录」登记。网页与 Markdown 使用同一基名，例如 <code>Osaka-Kyoto-Transit-Guide-v1.html</code> 与 <code>Osaka-Kyoto-Transit-Guide-v1.md</code>。</p>
 
-  <h2>说明</h2>
+  <h2 id="notes">说明</h2>
   <p>票价、时刻与规则类信息标注了抓取日期（2026-09-11），出行前请再核对一次官方页面；文档中的公司标识与实拍照片来自 Wikimedia Commons，版权归各公司所有，仅用于乘车识读说明，逐张出处见 <a href="assets/transit/CREDITS.md">CREDITS.md</a>。</p>
   <p>本站为个人出行资料集合，非商业用途；如发现信息有误，请以各铁路/巴士公司官方页面为准。</p>
 </main>
 
+<button id="back-to-toc" type="button" title="回到目录">↑ 回到目录</button>
 <footer>
   <p>分享链接：https://bibabo2.github.io/Osaka-Kyoto-Travel-Guide/　|　仓库：https://github.com/BIBABO2/Osaka-Kyoto-Travel-Guide</p>
 </footer>
+<script>
+  (function () {
+    var back = document.getElementById('back-to-toc');
+    back.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    window.addEventListener('scroll', function () {
+      back.classList.toggle('show', window.scrollY > 320);
+    });
+  })();
+</script>
 </body>
 </html>

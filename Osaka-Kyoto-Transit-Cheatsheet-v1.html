@@ -41,13 +41,20 @@
   figcaption{font-size:12.5px;color:var(--muted);margin-top:6px;line-height:1.6;}
   .inline-img{vertical-align:middle;}
   .logo-grid{display:flex;flex-wrap:wrap;gap:10px;}
+  #back-to-toc{position:fixed;right:18px;bottom:18px;z-index:60;display:none;align-items:center;gap:6px;
+    padding:10px 14px;border-radius:999px;border:1px solid var(--accent);background:#fff;color:var(--accent);
+    font-size:13px;font-family:inherit;cursor:pointer;box-shadow:0 6px 18px rgba(15,35,70,.16);}
+  #back-to-toc.show{display:inline-flex;}
+  #back-to-toc:hover{background:var(--accent);color:#fff;}
   @media (max-width:960px){
     #sidebar{position:static;width:auto;max-height:46vh;border-right:0;border-bottom:1px solid var(--border);}
     #content{margin-left:0;padding:20px 16px 64px;}
     #content h1{font-size:24px;}
+    #back-to-toc{right:12px;bottom:12px;}
   }
   @media print{
     #sidebar{display:none!important;}
+    #back-to-toc{display:none!important;}
     #content{margin:0!important;max-width:none!important;padding:0!important;}
     a{color:inherit;text-decoration:none;}
     body{font-size:11pt;}
@@ -66,7 +73,7 @@
 </nav>
 <main id="content">
 <h1 id="京都大阪-乘车速查卡v1">京都・大阪 乘车速查卡（v1）</h1>
-<blockquote>截图保存 / 打印随身带。完整版见《京都・大阪 公共交通乘车攻略 v1》。</blockquote>
+<blockquote>截图保存 / 打印随身带。完整版见<a href="Osaka-Kyoto-Transit-Guide-v1.html">《京都・大阪 公共交通乘车攻略 v1》</a>，各条细则对应章节：<a href="Osaka-Kyoto-Transit-Guide-v1.html#ch3">第 3 章 闸机</a>｜<a href="Osaka-Kyoto-Transit-Guide-v1.html#ch7">第 7 章 巴士</a>｜<a href="Osaka-Kyoto-Transit-Guide-v1.html#ch9">第 9 章 IC 卡</a>｜<a href="Osaka-Kyoto-Transit-Guide-v1.html#ch11">第 11 章 应急处置</a></blockquote>
 <blockquote>整理日期：2026-09-11　|　票价与规则为 2026-09-11 抓取口径，出行前请再核对一次。</blockquote>
 <hr>
 <figure><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgOTAwIDI1MCIgZm9udC1mYW1pbHk9Ik1pY3Jvc29mdCBZYUhlaSwgTm90byBTYW5zIFNDLCBzYW5zLXNlcmlmIj4KICA8cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjI1MCIgZmlsbD0iI2ZmZmZmZiIvPgogIDx0ZXh0IHg9IjMwIiB5PSI0MiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxZjIzMjgiPuWdkOeUtei9puS6lOatpea1geeoi++8iElDIOWNoeeJiO+8iTwvdGV4dD4KICA8dGV4dCB4PSIzMCIgeT0iNjgiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiM1YjY0NzIiPuWFqOeoi+WPquWBmuS4pOS7tuS6i++8mui/m+mXuOOAjOeisOS4gOS4i+OAje+8jOWHuumXuOOAjOeisOS4gOS4i+OAje+8m+S4remXtOaJvuWvueaciOWPsOWSjOi9puenjeOAgjwvdGV4dD4KICA8Zz4KICAgIDxyZWN0IHg9IjMwIiB5PSI5MiIgd2lkdGg9IjE1MCIgaGVpZ2h0PSIxMTAiIHJ4PSIxMiIgZmlsbD0iI2VlZjRmZiIgc3Ryb2tlPSIjMGI2MmM0IiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIDx0ZXh0IHg9IjEwNSIgeT0iMTI2IiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzBiNjJjNCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+4pGgIOi/m+mXuDwvdGV4dD4KICAgIDx0ZXh0IHg9IjEwNSIgeT0iMTUyIiBmb250LXNpemU9IjEzIiBmaWxsPSIjMWYyMzI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj7ljaHotLTmhJ/lupTljLrjgIznorDjgI08L3RleHQ+CiAgICA8dGV4dCB4PSIxMDUiIHk9IjE3NCIgZm9udC1zaXplPSIxMyIgZmlsbD0iIzFmMjMyOCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+5LiN6KaB5aGe6L+b5o+S5Y+jPC90ZXh0PgogIDwvZz4KICA8cGF0aCBkPSJNMTg2IDE0NyBMMjE0IDE0NyIgc3Ryb2tlPSIjMGI2MmM0IiBzdHJva2Utd2lkdGg9IjMiIG1hcmtlci1lbmQ9InVybCgjYXJyb3cpIi8+CiAgPGc+CiAgICA8cmVjdCB4PSIyMjIiIHk9IjkyIiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjExMCIgcng9IjEyIiBmaWxsPSIjZjJmYmY2IiBzdHJva2U9IiMwZjhhNWYiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgPHRleHQgeD0iMjk3IiB5PSIxMjYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjMGY4YTVmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj7ikaEg5om+5pyI5Y+wPC90ZXh0PgogICAgPHRleHQgeD0iMjk3IiB5PSIxNTIiIGZvbnQtc2l6ZT0iMTMiIGZpbGw9IiMxZjIzMjgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPueci+OAjOOBruOCiuOBsCAvIOeVque3muOAjTwvdGV4dD4KICAgIDx0ZXh0IHg9IjI5NyIgeT0iMTc0IiBmb250LXNpemU9IjEzIiBmaWxsPSIjMWYyMzI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj7lho3moLjlr7nmlrnlkJHniYw8L3RleHQ+CiAgPC9nPgogIDxwYXRoIGQ9Ik0zNzggMTQ3IEw0MDYgMTQ3IiBzdHJva2U9IiM1YjY0NzIiIHN0cm9rZS13aWR0aD0iMyIgbWFya2VyLWVuZD0idXJsKCNhcnJvdykiLz4KICA8Zz4KICAgIDxyZWN0IHg9IjQxNCIgeT0iOTIiIHdpZHRoPSIxNTAiIGhlaWdodD0iMTEwIiByeD0iMTIiIGZpbGw9IiNmZmY4ZWMiIHN0cm9rZT0iI2Q5ODQxMCIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgICA8dGV4dCB4PSI0ODkiIHk9IjEyNiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNkOTg0MTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiPuKRoiDkuIrovaY8L3RleHQ+CiAgICA8dGV4dCB4PSI0ODkiIHk9IjE1MiIgZm9udC1zaXplPSIxMyIgZmlsbD0iIzFmMjMyOCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+55yL6L2m56eN77ya5pmu6YCaL+W/q+mAny/nibnmgKU8L3RleHQ+CiAgICA8dGV4dCB4PSI0ODkiIHk9IjE3NCIgZm9udC1zaXplPSIxMyIgZmlsbD0iIzFmMjMyOCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+54m55oCl6L+Y6KaB54m55oCl5Yi4PC90ZXh0PgogIDwvZz4KICA8cGF0aCBkPSJNNTcwIDE0NyBMNTk4IDE0NyIgc3Ryb2tlPSIjNWI2NDcyIiBzdHJva2Utd2lkdGg9IjMiIG1hcmtlci1lbmQ9InVybCgjYXJyb3cpIi8+CiAgPGc+CiAgICA8cmVjdCB4PSI2MDYiIHk9IjkyIiB3aWR0aD0iMTIwIiBoZWlnaHQ9IjExMCIgcng9IjEyIiBmaWxsPSIjZmZmMWYxIiBzdHJva2U9IiNjMDM5MmIiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgPHRleHQgeD0iNjY2IiB5PSIxMjYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjYzAzOTJiIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj7ikaMg5o2i5LmYPC90ZXh0PgogICAgPHRleHQgeD0iNjY2IiB5PSIxNTIiIGZvbnQtc2l6ZT0iMTMiIGZpbGw9IiMxZjIzMjgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPuWQjOWFrOWPuO+8muermeWGhei1sDwvdGV4dD4KICAgIDx0ZXh0IHg9IjY2NiIgeT0iMTc0IiBmb250LXNpemU9IjEzIiBmaWxsPSIjMWYyMzI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj7ot6jlhazlj7jvvJrlhYjlh7rlho3ov5s8L3RleHQ+CiAgPC9nPgogIDxwYXRoIGQ9Ik03MzIgMTQ3IEw3NjAgMTQ3IiBzdHJva2U9IiM1YjY0NzIiIHN0cm9rZS13aWR0aD0iMyIgbWFya2VyLWVuZD0idXJsKCNhcnJvdykiLz4KICA8Zz4KICAgIDxyZWN0IHg9Ijc2OCIgeT0iOTIiIHdpZHRoPSIxMDIiIGhlaWdodD0iMTEwIiByeD0iMTIiIGZpbGw9IiNlZWY0ZmYiIHN0cm9rZT0iIzBiNjJjNCIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgICA8dGV4dCB4PSI4MTkiIHk9IjEyNiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMwYjYyYzQiIHRleHQtYW5jaG9yPSJtaWRkbGUiPuKRpCDlh7rpl7g8L3RleHQ+CiAgICA8dGV4dCB4PSI4MTkiIHk9IjE1MiIgZm9udC1zaXplPSIxMyIgZmlsbD0iIzFmMjMyOCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+5ZCM5LiA5byg5Y2h5YaN56KwPC90ZXh0PgogICAgPHRleHQgeD0iODE5IiB5PSIxNzQiIGZvbnQtc2l6ZT0iMTMiIGZpbGw9IiMxZjIzMjgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPuS9memineS4jeWkn+aJvueyvueul+acujwvdGV4dD4KICA8L2c+CiAgPHRleHQgeD0iMzAiIHk9IjIzMiIgZm9udC1zaXplPSIxMi41IiBmaWxsPSIjNWI2NDcyIj7ms6jvvJrov5vnq5nkuI7lh7rnq5nlv4Xpobvkvb/nlKjlkIzkuIDlvKDljaHmiJblkIzkuIDlvKDnpajvvJvkuIDkurrkuIDljaHvvIzkuI3og73kuKTkurrlhbHnlKjjgII8L3RleHQ+CiAgPGRlZnM+CiAgICA8bWFya2VyIGlkPSJhcnJvdyIgbWFya2VyV2lkdGg9IjEwIiBtYXJrZXJIZWlnaHQ9IjEwIiByZWZYPSI4IiByZWZZPSI1IiBvcmllbnQ9ImF1dG8iPgogICAgICA8cGF0aCBkPSJNMCwwIEwxMCw1IEwwLDEwIHoiIGZpbGw9IiM1YjY0NzIiLz4KICAgIDwvbWFya2VyPgogIDwvZGVmcz4KPC9zdmc+Cg==" alt="坐电车五步流程"><figcaption>坐电车五步流程</figcaption></figure>
@@ -78,6 +85,7 @@
 <li><strong>跨公司换乘＝先出闸、再进闸</strong>；同公司站内换乘不出闸；「直通运转」连车都不用换。</li>
 </ol>
 <h2 id="闸机四步">闸机四步</h2>
+<blockquote>详细说明：<a href="Osaka-Kyoto-Transit-Guide-v1.html#ch3">第 3 章 改札与闸机完全解读</a></blockquote>
 <div class="table-wrap"><table>
 <thead><tr><th>步骤</th><th>做法</th></tr></thead>
 <tbody>
@@ -88,6 +96,7 @@
 </tbody></table></div>
 <p><strong>必须记住</strong>：进站用什么，出站就用什么（同一张卡 / 同一张票）；一人一卡不能共用。</p>
 <h2 id="巴士口诀">巴士口诀</h2>
+<blockquote>详细说明：<a href="Osaka-Kyoto-Transit-Guide-v1.html#ch7">第 7 章 坐巴士</a></blockquote>
 <div class="table-wrap"><table>
 <thead><tr><th>城市</th><th>口诀</th><th>票价</th></tr></thead>
 <tbody>
@@ -100,6 +109,7 @@
 <li>京都多区间路线（白底黑字方向幕）才需要拿整理券。</li>
 </ul>
 <h2 id="ic-卡要点">IC 卡要点</h2>
+<blockquote>详细说明：<a href="Osaka-Kyoto-Transit-Guide-v1.html#ch9">第 9 章 交通 IC 卡</a></blockquote>
 <ul>
 <li>关西买 <strong>ICOCA</strong>（2,000 日元 = 500 押金 + 1,500 余额）；关西买不到实体 Suica。</li>
 <li>iPhone 可在钱包里直接开 Suica / ICOCA（无押金）；安卓用官方「モバイルICOCA」。</li>
@@ -132,6 +142,7 @@
 <tr><td>終電（しゅうでん）</td><td>末班车</td></tr>
 </tbody></table></div>
 <h2 id="现场应急三步">现场应急三步</h2>
+<blockquote>详细说明：<a href="Osaka-Kyoto-Transit-Guide-v1.html#ch11">第 11 章 遇到问题怎么办</a></blockquote>
 <ol>
 <li><strong>停</strong>：被闸机挡住不要反复刷卡，先退出队列。</li>
 <li><strong>查</strong>：看闸机屏幕提示（余额不足＝残額不足）。</li>
@@ -152,10 +163,12 @@
 <li>关西一地行程：JR PASS 通常不划算。</li>
 </ul>
 </main>
+<button id="back-to-toc" type="button" title="回到目录">↑ 回到目录</button>
 <script>
   var box = document.getElementById('tocbox');
   var input = document.getElementById('search');
   var items = Array.prototype.slice.call(box.querySelectorAll('li'));
+  var back = document.getElementById('back-to-toc');
   input.addEventListener('input', function () {
     var q = input.value.trim().toLowerCase();
     items.forEach(function (li) {
@@ -163,6 +176,14 @@
       var hit = !q || t.indexOf(q) !== -1;
       li.classList.toggle('hide', !hit);
     });
+  });
+  back.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    var searchBox = document.getElementById('search');
+    if (searchBox && window.innerWidth > 960) { searchBox.focus({ preventScroll: true }); }
+  });
+  window.addEventListener('scroll', function () {
+    back.classList.toggle('show', window.scrollY > 320);
   });
 </script>
 </body>
