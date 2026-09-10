@@ -169,12 +169,13 @@
 <li value="6">重新生成 HTML 检索版：</li>
 </ol>
 <p>```text</p>
-<p>node build-html.js Osaka-Kyoto-NationalDay-Travel-Guide-v2.md Osaka-Kyoto-NationalDay-Travel-Guide-v2.html</p>
-<p>node build-html.js Osaka-Kyoto-Guide-Making-Playbook-v2.md Osaka-Kyoto-Guide-Making-Playbook-v2.html</p>
+<p>node tools/build-site.js Osaka-Kyoto-NationalDay-Travel-Guide-v2.md Osaka-Kyoto-NationalDay-Travel-Guide-v2.html --inline-images --home index.html</p>
+<p>node tools/build-site.js Osaka-Kyoto-Transit-Guide-v2.md Osaka-Kyoto-Transit-Guide-v2.html --inline-images --home index.html</p>
 <p>```</p>
 <h3 id="7-3-配套脚本-19">7.3 配套脚本</h3>
 <ul>
-<li>build-html.js：把 Markdown 转成带左侧目录与标题筛选框的单文件 HTML（用法见 7.2）。</li>
+<li>tools/build-site.js：把 Markdown 转成带左侧目录、目录筛选、表格与图片（可内嵌为单文件）的响应式 HTML（用法见 7.2）。</li>
+<li>tools/publish.ps1：一条命令完成「重建网页 → 校验 → 同步到仓库 → 提交推送」，用于本地更新后自动上传 GitHub。</li>
 <li>split-docs.js：v1 拆分用的一次性脚本（合并版 → 攻略版），后续更新无需再运行。</li>
 </ul>
 <hr>
@@ -192,6 +193,8 @@
 <ul>
 <li>v1（2026-09-09，同日修订）：初版。将合并版拆分为《旅游攻略 v1》与《制作指南 v1》；正文检索日期 2026-09-09；工具调研、验证规则、更新规程收纳于本指南。</li>
 <li>v1（同日补充）：应用户要求，旧版合并文件恢复保留（Osaka-Kyoto-NationalDay-Notes.md / .html，作为历史快照不再维护）；旅游攻略新增“4.2 交通支付方式”小节并追加来源 S64–S76。</li>
+<li>v1（2026-09-11，文件集整理）：新增《公共交通乘车攻略 v1》与《乘车速查卡 v1》（含 44 张配图与来源清单）；网页生成器由 build-html.js 升级为 build-site.js（支持表格、图片、图片内嵌、目录跳转与打印样式），并新增一键发布脚本 publish.ps1。</li>
+<li>v1（2026-09-11，去重与命名统一）：按用户要求统一「网页 / Markdown」同名规则（如 Osaka-Kyoto-Transit-Guide-v1.html 与 .md 同名）；删除重复版本：旧合并版 Osaka-Kyoto-NationalDay-Notes.md / .html、分享版 Osaka-Kyoto-Travel-Guide-Share-v1.html（内容已并入 Osaka-Kyoto-NationalDay-Travel-Guide-v1.html）；站点旧地址 travel-guide-v1.html 已移除；原始底稿更名为 Osaka-Kyoto-Transit-Guide-v0-Source-Original.md 并随站点发布。删除前的副本保存在本地 <code>.cache/archive-20260911/</code>。</li>
 </ul>
 </main>
 <script>
